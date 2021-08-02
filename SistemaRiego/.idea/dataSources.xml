@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="OdontomediDev@stockydb.cggyseqn2du8.us-east-2.rds.amazonaws.com" uuid="900e29d7-e85d-4b79-8f2a-784933c98134">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://stockydb.cggyseqn2du8.us-east-2.rds.amazonaws.com:3306/OdontomediDev</jdbc-url>
+    </data-source>
+  </component>
+</project>

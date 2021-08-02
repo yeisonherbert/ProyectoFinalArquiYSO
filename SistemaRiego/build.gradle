@@ -1,0 +1,50 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.4.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+    id 'java'
+    id 'war'
+}
+
+group = 'pe.antana'
+version = '2.4.0-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+bootWar {
+    baseName = 'RestSistemaRiego'
+    archiveName 'RestSistemaRiego.war'
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+//    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security
+//    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.4.2'
+//    // https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt
+//    implementation group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
+//    // https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
+//    implementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.1'
+
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+//    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+    compile("org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.3")
+    //   compile("org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.2")
+    compile('org.springframework.boot:spring-boot-starter-jdbc')
+//    runtimeOnly 'mysql:mysql-connector-java'
+    compile 'org.mariadb.jdbc:mariadb-java-client'
+
+}
+
+test {
+    useJUnitPlatform()
+}
