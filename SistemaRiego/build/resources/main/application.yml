@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    #    url: jdbc:mysql://localhost:3306/ventas?serverTimezone=GMT-5
+    #Desarrollo
+    url: jdbc:mariadb://stockydb.cggyseqn2du8.us-east-2.rds.amazonaws.com:3306/DBSistemaRiego?serverTimezone=GMT-5
+    #Producción
+    #url: jdbc:mariadb://stockydb.cggyseqn2du8.us-east-2.rds.amazonaws.com:3306/dbOdontomedi?serverTimezone=GMT-5
+    username: admin
+    password: 1234567r
+    driverClassName: org.mariadb.jdbc.Driver
+mybatis:
+  type-aliases-package: com.example.myproject.mapper
+  mapper-locations: mybatis/mapper/**/*.xml

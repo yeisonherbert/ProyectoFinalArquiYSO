@@ -1,0 +1,16 @@
+pe/antana/SistemaRiego/Mapper/HistorialMapper.java
+ pe.antana.SistemaRiego.Mapper.HistorialMapper
+pe/antana/SistemaRiego/Beans/Test/Saludar.java
+ pe.antana.SistemaRiego.Beans.Test.Saludar
+pe/antana/SistemaRiego/SistemaRiegoApplication.java
+ pe.antana.SistemaRiego.SistemaRiegoApplication
+pe/antana/SistemaRiego/Util/Constants.java
+ pe.antana.SistemaRiego.Util.Constants
+pe/antana/SistemaRiego/ServletInitializer.java
+ pe.antana.SistemaRiego.ServletInitializer
+pe/antana/SistemaRiego/Beans/Entidad/HistorialSensor.java
+ pe.antana.SistemaRiego.Beans.Entidad.HistorialSensor
+pe/antana/SistemaRiego/Controller/HistorialController.java
+ pe.antana.SistemaRiego.Controller.HistorialController
+pe/antana/SistemaRiego/Service/HistorialService.java
+ pe.antana.SistemaRiego.Service.HistorialService
