@@ -3,7 +3,8 @@
 
 const char* ssid     = "iPhone de Yeison Herbert";
 const char* password = "12345678";
-int analogPin = A0;
+//int analogPin = A0;
+int analogPin = 30;
 int lectura = 0;
 const char* serverName = "http://3.138.165.125:8080/RestSistemaRiego/HistorialSensor/Insertar";
 String apiKeyValue = "123";
@@ -12,7 +13,7 @@ String sensorLocation = "Jardin3";
 
 void setup() {
   Serial.begin(9600);
-
+ pinMode(analogPin, INPUT);
   WiFi.begin(ssid, password);
   Serial.println("Connecting");
   while (WiFi.status() != WL_CONNECTED) {
@@ -50,7 +51,7 @@ void loop() {
     Serial.println("WiFi Disconnected");
   }
   //10 minutos
-  delay(600000);
+  //delay(600000);
   //10 segundos
-  //delay(10000);
+  delay(10000);
 }
