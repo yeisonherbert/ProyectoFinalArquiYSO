@@ -1,3 +1,5 @@
+--Autor: Yeison Herbert Churquipa Yanqui
+--yeison.churquipa.y@uni.pe
 use DBSistemaRiego;
 
 create database DBSistemaRiego;

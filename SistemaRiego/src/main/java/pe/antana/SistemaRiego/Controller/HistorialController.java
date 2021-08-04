@@ -1,3 +1,9 @@
+/*
+Autor: Yeison Herbert Churquipa Yanqui
+yeison.churquipa.y@uni.pe
+ */
+
+
 package pe.antana.SistemaRiego.Controller;
 
 

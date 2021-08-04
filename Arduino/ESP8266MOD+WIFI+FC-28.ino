@@ -1,3 +1,6 @@
+//Autor: Yeison Herbert Churquipa Yanqui
+//yeison.churquipa.y@uni.pe
+
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 

@@ -1,3 +1,6 @@
+//Autor: Yeison Herbert Churquipa Yanqui
+//yeison.churquipa.y@uni.pe
+
 int valor_humedad_suelo;
 int valor_lluvia;
 int valor_luminosidad;

@@ -1,3 +1,7 @@
+/*
+Autor: Yeison Herbert Churquipa Yanqui
+yeison.churquipa.y@uni.pe
+ */
 package pe.antana.SistemaRiego.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
